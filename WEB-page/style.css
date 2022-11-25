@@ -1,0 +1,91 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
+}
+.Head{
+    height:100vh;
+    width:100%;
+    background-size: cover;
+    background-position:center ;
+    background-color: rgb(41, 31, 51);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    padding-top: 45px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+.name{
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: rgb(233, 41, 92);
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: 800;
+}
+.button{
+    background-color: beige;
+    color:rgb(233, 41, 92);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    transition-duration: 4s;
+}
+.button:hover{
+    transform:scale(1.2);
+}
+.paragraph{
+    position:absolute;
+    top:25%;
+    left: 8px;
+    transform:translateY(-40%);
+}
+h4{
+    color: white;
+    font-size: 15px;
+    margin: 250px 25px 10px
+}
+h1{
+    color: white;
+    margin: 20px 25px 10px;
+    font-size: 50px;
+}
+
+h3{
+    color: rgb(233, 41, 92);
+    font-size: 30px;
+    margin: 20px 25px 10px;   
+}
+.circle{
+    border-radius:  50%;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    background-color:rgb(41, 31, 51);
+    border: 3px solid #fff;
+    text-align: center;
+    margin: -162px 350px 10px;
+    color:rgb(233, 41, 92);
+    font-size:  30px;
+    font-weight: bolder;
+
+}
+
+
